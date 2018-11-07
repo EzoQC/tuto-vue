@@ -1,0 +1,56 @@
+body {
+    width: 320px;
+    margin: 0 auto;
+}
+.subtitle {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.form-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.form-container *:not(:last-child) {
+    margin-right: 1em;
+}
+
+.form-container button {
+    flex-grow: 1;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-weight: bold;
+}
+
+.message {
+   margin-bottom: 1em;
+}
+
+.error-message {
+    color: #D8000C;
+}
+
+.success-message {
+    color: #4F8A10;
+}
+
+.info-message {
+    color: #00529B;
+}
+
+table {
+    width: 100%;
+}
+
+thead tr th, tbody tr td {
+    text-align: left;
+}
